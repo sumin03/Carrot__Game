@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARROT GAME</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c233cb2fc3.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="audio">
+        <audio id="alert" src="../sound/alert.wav" autoplay="false"></audio>
+        <audio id="bg" src="../sound/bg.mp3" allow="autoplay"></audio>
+        <audio id="bug__sound" src="../sound/bug_pull.mp3"></audio>
+        <audio id="carrot__sound" src="../sound/carrot_pull.mp3"></audio>
+        <audio id="win" src="../sound/game_win.mp3"></audio>
+    </div>
+    <header class="header">
+        <button class="play__btn">
+           <i class="fas fa-caret-right triangle"></i>
+        </button>
+        <div class="timer">
+            <span class="min">00</span>
+            <span class="divider">:</span>
+            <span class="second">12</span>
+        </div>
+        <div class="number">
+            <span class="numbering">10</span>
+        </div>
+    </header> 
+    <div class="image-box">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="carrot" src="../img/carrot.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+        <img class="bug" src="../img/bug.png">
+    </div>
+    <div class="win__alert">
+        <div class="again">
+            <i class="fas fa-redo-alt again__btn"></i>
+        </div>
+        You win!!! 💖
+    </div>
+    <div class="lose__alert">
+        <div class="again">
+            <i class="fas fa-redo-alt again__btn"></i>
+        </div>
+        You are such a failure!! 😡
+    </div>
+</body>
+</html>

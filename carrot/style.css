@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:url("img/background.png")no-repeat;
+    background-size:100%;
+    position:relative;
+
+}
+
+.header{
+    display:flex; 
+    flex-direction:column; 
+    margin-top:100px;
+    align-items: center;
+}
+
+.play__btn{
+    outline:none; 
+    cursor:pointer;
+    width:100px; 
+    height:100px; 
+    border:4px solid black; 
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin-bottom:30px;
+}
+
+.triangle{
+    font-size:80px;
+}
+
+.timer{
+    width:300px; 
+    height:80px; 
+    border:4px solid black; 
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    font-size:60px;
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    padding:10px 60px 0px 60px;
+    margin-bottom:30px;
+}
+
+
+
+.number{
+    width:120px; 
+    height:120px; 
+    border-radius: 50%;
+    border:4px solid black; 
+    background-color:darksalmon;
+    display:flex; 
+    margin-bottom:80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbering{
+    font-weight:bold; 
+    color:white;
+    font-size:80px;
+    line-height:120px;
+    
+    
+}
+
+.image-box{
+    width:95%;
+    height:470px;
+    
+    margin:auto; 
+    position:relative;
+   
+}
+
+.image-box > img{
+    position:absolute; 
+    left:0; 
+    top:0;
+    cursor:pointer;
+}
+
+.win__alert{
+    width:300px; 
+    padding-top:10px; 
+    text-align:center;
+    border:4px solid black; 
+    border-radius: 30px;
+    line-height:100px;
+    background-color:blanchedalmond;
+    font-size:40px; 
+    font-weight:bold;
+    position: absolute;
+    top:50%; left:42%;
+    display:none;
+}
+
+.lose__alert{
+    padding-top:20px;
+    width:500px; 
+    text-align:center;
+    border:4px solid black; 
+    border-radius: 30px;
+    background-color:blanchedalmond;
+    font-size:40px; 
+    font-weight:bold;
+    position: absolute;
+    top:50%; left:35%;
+    display:none;
+}
+
+.again{
+    width:80px; 
+    height:80px; 
+    line-height:80px;
+    font-weight:bold; 
+    border:5px solid black;
+    border-radius: 30px;
+    margin:auto;
+    margin-bottom:30px;
+    cursor:pointer;
+    
+}
+
+.again__btn{
+    font-size:40px;
+}
